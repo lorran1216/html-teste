@@ -1,0 +1,131 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100hv;
+    margin: 0;
+    padding: 0;
+}
+
+
+.principal{
+    display:flex;
+    width: 900px;
+    height: 100px; 
+    background-color: blue;
+    margin-left: 200px;
+    border: 10px solid black;
+    border-radius: 15%;
+}
+
+footer{
+    position: relative;
+}
+
+.image-container{
+    position: relative;
+    text-align: center;
+    margin-left: 225px;
+}
+
+.texto{
+    position: absolute;
+    font-family: 'Sevillana', cursive;
+    top: 40%;
+    left: 28%;
+    color: chocolate;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h1{
+    margin-left: 150px;
+    text-justify: center;
+    text-align: center;
+    color:chocolate
+}
+
+.container{
+    margin-left:200px;
+    display:grid;
+    height: 950px;
+    width: 900px;
+    grid-template-columns: 50px 350px 250px 250px;
+    grid-template-rows: 400px 200px 300px 50px;
+    
+    /*background-color: black;
+    gap: 10px;*/
+    
+}
+
+.item{
+    background-color: white;
+    border: 5px solid black
+}
+
+.red{
+    background-color: red;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.w1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+
+.w2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.w3{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.yellow{
+    background-color: yellow;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.w4{
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.blue{
+    background-color: blue;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.w5{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.w6{
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
